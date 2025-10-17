@@ -1,0 +1,5 @@
+- name: ping the server
+  hosts: catalogue # which server you are connecting to
+  tasks:
+  - name: ping
+    ansible.builtin.ping:
