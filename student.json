@@ -1,0 +1,20 @@
+{
+    "name": "Raju",
+    "DOB": "1985",
+    "Age": 39,
+    "Addresses": [
+        {
+            "type": "Permanent",
+            "flat-no": 8195,
+            "city": "bangalore",
+            "pin": 560049
+        },
+        {
+            "type": "current",
+            "flat-no": 2505,
+            "city": "Dubai",
+            "pin": 777
+        }
+    ],
+    "Skills": ["DevSecOps, Shell, Ansible, Jenkins, CI/CD, Docker, Kubernates,ArgoCD, ELK, Grafana, Promethus, Kibana, Python, Nodejs"]
+}
