@@ -1,6 +1,6 @@
 - name: data types
-  host: local
-  connections: local
+  hosts: local
+  connection: local
   vars:
     Course: "DevSecOps with AWS" # string
     Duration: 120 # number
