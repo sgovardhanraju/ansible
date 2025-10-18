@@ -5,7 +5,7 @@
     technologies: DevSecOps, Linux, Shell, Ansible, Terraform, ArgoCd, Docker, Kubernamtes, Jenkis, CI, CD, ELK, Grafana, Kibana, Prometheus
     name: "Govardhan Raju S"
     gmail: SgRaju18@GmaIl.Com
-    ipaddress: 33434.987.33.9876
+    ipaddress: 192.168.0.2
     # dictionary == map
     tags:
       Application: payment
