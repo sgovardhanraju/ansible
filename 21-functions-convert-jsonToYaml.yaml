@@ -5,6 +5,7 @@
     technologies: DevSecOps, Linux, Shell, Ansible, Terraform, ArgoCd, Docker, Kubernamtes, Jenkis, CI, CD, ELK, Grafana, Kibana, Prometheus
     name: "Govardhan Raju S"
     gmail: SgRaju18@GmaIl.Com
+    ipaddress: 33434.987.33.9876
     # dictionary == map
     tags:
       Application: payment
@@ -53,3 +54,6 @@
   - name: convert lowercase
     ansible.builtin.debug:
       msg: "{{ gmail | lower }}"
+
+  - name: check ip is valid or not
+    ansible.builtin.debug: "{{ myvar | ansible.utils.ipv4 }}"
