@@ -56,4 +56,4 @@
       msg: "{{ gmail | lower }}"
 
   - name: check ip is valid or not
-    ansible.builtin.debug: "{{ myvar | ansible.utils.ipv4 }}"
+    ansible.builtin.debug: "{{ ipaddress | ansible.utils.ipv4 }}"
