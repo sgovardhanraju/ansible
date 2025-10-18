@@ -1,0 +1,14 @@
+- name: functions
+  hosts: local
+  connection: local
+  vars:
+    technologies: DevSecOps, Linux, Shell, Ansible, Terraform, Jenkins, Docker, Kubernates, CI, CD, ArcgoCd, ELK, Grafana, Python
+  tasks:
+  - name:
+    ansible.builtin.debug:
+      msg: "Hello, {{ name | default('Raju') }}"
+
+  # string to list
+  - name: convert string to list
+    ansible.builtin.debug:
+      msg: "Technologies are: {{ technologies | split(',') }}"
