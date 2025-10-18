@@ -8,11 +8,11 @@
       Application: payment
       Environment: dev
   # List
-  listTags:
-  - key: Application
-    value: payment
-  - key: Environment
-    value: dev
+    listTags:
+    - key: Application
+      value: payment
+    - key: Environment
+      value: dev
   tasks:
   - name: default variable
     ansible.builtin.debug:
